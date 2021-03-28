@@ -45,6 +45,10 @@ html{
 *, *::before, *::after{
     box-sizing: inherit;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 .header{
     background: #C5C3C6;
@@ -52,7 +56,7 @@ html{
 }
 
 .wrapper{
-    max-width: 85%;
+    max-width: 77.31%;
     margin: 0 auto;
 
 }
@@ -73,6 +77,8 @@ body{
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 41px;
+    vertical-align: top;
+    align-items: start;
 }
 .header__logo-pic{
     height: 79px;
@@ -81,10 +87,7 @@ body{
 .header__list{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0;
-
-
-
+    margin-top: fill;
 }
 .header__item{
     margin-right: 25px;
@@ -177,7 +180,7 @@ body{
     font-family: "Russo One";
     border-radius: 3px;
     border: 2px solid #252525;
-    margin-left:auto;
+    margin-left: fill;
     font-size: 18px;
     text-align: center;
     line-height: 22px;
@@ -195,4 +198,237 @@ body{
 /*-----------------teachers----------------- */
 .teachers{
     background: #EEEEEE;
+}
+.teachers__all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 189px ;
+}
+.teachers__title{
+    padding-top: 86px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: "Russo One";
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.teachers__one-pic{
+    margin-right: 14px;
+    margin-bottom: 11px;
+}
+.teachers__one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 110px;
+}
+.teachers__name{
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+}
+.teachers__surname{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.teachers__role{
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 23px;
+}
+.teachers__info{
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/*-----------------achivments----------------- */
+.achievements{
+background: #34547A;
+}
+.teachers__title{
+    padding-top: 45px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: "Russo One";
+    font-size: 24px;
+    line-height: 29px;
+}
+.achievements__all{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 100px ;
+}
+.achievements__one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 69px;
+}
+.achievements__one-pic{
+    margin-right: 20px;
+}
+.achievements__name1{
+    width: 97px;
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 23px;
+}
+.achievements__name2{
+    width: 134px;
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 23px;
+}
+.achievements__name3{
+    width: 95px;
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 23px;
+}
+.achievements__name4{
+    width: 108px;
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/*-----------------achivments----------------- */
+
+.in{
+    height: 398px;
+    background: #F2F2F3;
+}
+.in__info{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 460px;
+    width: 460px;
+    max-height: 168px;
+    padding-bottom: 27px;
+}
+.in__all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 58px;
+    padding-bottom: 63px;
+}
+.in_image-pic{
+    width: 491.91px;
+    height: 277px;
+}
+.in__tittleSub{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+.in__sub{
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    align-self: center;
+    padding-bottom: 25px;
+}
+.in__but{
+    font-family: "Russo One";
+    border-radius: 3px;
+    border: 2px solid #252525;
+    margin-left: fill;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    padding: 25px 60px;
+    align-self: flex-start;
+}
+.in__infoBut{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+/*-----------------footer----------------- */
+.footer{
+    background: #797979;
+}
+.footer__title{
+    padding-top: 45px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: "Russo One";
+    font-size: 24px;
+    line-height: 29px;
+}
+.footer__all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_left_item{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.footer_left_item1{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 50px;
+}
+.footer_left_item2{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 52px;
+}
+.footer_right_item{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 12px;
+}
+.footer_right_item1{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 6px;
+}
+.footer_right_item2{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 7px;
+}
+.footer_right_images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_right_image{
+    margin-right: 15px;
+}
+.footer_right_images :last-child{
+    margin-right: 0px;
 }
