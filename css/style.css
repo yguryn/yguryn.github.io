@@ -130,7 +130,7 @@ body{
 .slog{
     font-family: "Russo One";
     font-size: 18px;
-    margin-top: -19px;
+    margin-top: -18px;
 }
 
 
@@ -432,8 +432,8 @@ background: #34547A;
     display: flex;
     flex-wrap: wrap;
 }
-.footer_right_image{
-    margin-right: 15px;
+.footer_right_image-link{
+    margin-right: 66px;
 }
 .footer_right_images :last-child{
     margin-right: 0px;
