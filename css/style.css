@@ -117,20 +117,22 @@ body{
 }
 
 .but{
+    color: black;
     border-radius: 3px;
     border: 2px solid #252525;
     margin-left:auto;
     font-size: 18px;
-    align-items: center;
     text-align: center;
     line-height: 22px;
     padding: 18px 60px;
+    text-decoration: none;
 }
 .slog{
     font-family: "Russo One";
     font-size: 18px;
-    margin-top: 8.82px;
+    margin-top: -19px;
 }
+
 
 /*-----------------aboutUs----------------- */
 .aboutUs{
@@ -177,6 +179,7 @@ body{
     padding-bottom: 9px;
 }
 .aboutUs__but{
+    color: black;
     font-family: "Russo One";
     border-radius: 3px;
     border: 2px solid #252525;
@@ -184,8 +187,9 @@ body{
     font-size: 18px;
     text-align: center;
     line-height: 22px;
-    padding: 25px 60px;
+    padding: 20px 45px;
     align-self: flex-start;
+    text-decoration: none;
 }
 .aboutUs__infoBut{
     display: flex;
@@ -258,7 +262,7 @@ background: #34547A;
 .achievements__all{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 100px ;
+    grid-column-gap: 10px ;
 }
 .achievements__one{
     display: flex;
@@ -339,6 +343,7 @@ background: #34547A;
     padding-bottom: 25px;
 }
 .in__but{
+    color: black;
     font-family: "Russo One";
     border-radius: 3px;
     border: 2px solid #252525;
@@ -346,8 +351,9 @@ background: #34547A;
     font-size: 18px;
     text-align: center;
     line-height: 22px;
-    padding: 25px 60px;
+    padding: 20px 80px;
     align-self: flex-start;
+    text-decoration: none;
 }
 .in__infoBut{
     display: flex;
