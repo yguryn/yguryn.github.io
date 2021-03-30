@@ -177,6 +177,9 @@ body{
     height: 168px;
     padding-bottom: 12px;
 }
+#aboutUs__info2{
+    font-size: 24px;
+}
 .aboutUs__all{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -478,8 +481,48 @@ background: #34547A;
 .footer_right_image:hover, .footer_right_image:focus{
     opacity: .65;
 }
-
+/*-----------------advantage----------------- */
+.advantage__all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 179px ;
+}
+.advantage__one{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+}
+.advantage__img-pic{
+    width: 75px;
+    height: 75px;
+    margin-right: 75px;
+}
+.advantage__name{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+.advantage__info{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.advantage__name-info{
+    margin-left: 27px;
+}
 /*-----------------media----------------- */
+
+@media screen and (max-width: 900px) {
+    .advantage__all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 179px ;
+    }
+}
 
 @media screen and (max-width: 540px) {
     .aboutUs_image-pic{
