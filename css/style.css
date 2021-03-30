@@ -712,7 +712,10 @@ background: #34547A;
 .slick-prev:before, .slick-next:before {
     color: black !important;
 }
-
+#map{
+    height: 500px ;
+    width: 100%;
+}
 
 
 /*-----------------media----------------- */

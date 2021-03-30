@@ -73,6 +73,11 @@
         </div>
     </div>
 </header>
+<main>
+    <div id="map">
+
+    </div>
+</main>
 
 <section class="contacts__main">
     <div class="contacts__wrapper">
@@ -148,5 +153,26 @@
 </footer>
 <script src="libs/slick/slick.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 49.6673501, lng: 32.3234754};
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+        });
+    }
+</script>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1pXHGenaJKBV57BMkhDWXPw-M0fCsN9k&callback=initMap&libraries=&v=weekly"
+        async
+></script>
 </body>
 </html>
