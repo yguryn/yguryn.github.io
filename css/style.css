@@ -58,7 +58,6 @@ img{
 .wrapper{
     max-width: 77.31%;
     margin: 0 auto;
-
 }
 
 body{
@@ -481,6 +480,38 @@ background: #34547A;
 .footer_right_image:hover, .footer_right_image:focus{
     opacity: .65;
 }
+/*-----------------advantages----------------- */
+.advantages__all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 179px ;
+}
+.advantages__img-pic{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 26px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.advantages__name{
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px
+}
+.advantages__info {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.advantages__one{
+    margin-bottom: 100px;
+}
 /*-----------------advantage----------------- */
 .advantage__all{
     display: grid;
@@ -514,8 +545,242 @@ background: #34547A;
 .advantage__name-info{
     margin-left: 27px;
 }
-/*-----------------media----------------- */
+.inPage{
+    background-color: #F8F9FB;
+}
+/*-----------------inPage----------------- */
 
+.inPage__title{
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 45px;
+    padding-top: 75px;
+    text-align: center;
+}
+.inPage__text{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 17px;
+}
+.inPage__bold{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 15px;
+}
+.inPage__item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    padding-bottom: 15px;
+}
+.inPage__item:last-child{
+    padding-bottom: 100px;
+}
+.inPage__dot{
+    width: 20px;
+    height: 20px;
+}
+.inPage__item-text {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    margin-left: 20px;
+}
+/*-----------------contacts----------------- */
+
+.contacts__wrapper{
+    max-width: 77.31%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 3px solid #CBC7C7;
+
+}
+.contacts__main{
+    background-color: #EEEEEE;
+    padding-top: 75px;
+    height: 777px;
+}
+.contacts__name{
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 210px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.contacts__time {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.contacts__number{
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 22px;
+    opacity: 0.9;
+}
+.contacts__email{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: 218px;
+}
+/*-----------------media----------------- */
+@media screen and (max-width: 580px) {
+    .contacts__wrapper {
+        max-width: 77.31%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border: 3px solid #CBC7C7;
+        height: 220px;
+
+    }
+
+    .contacts__main {
+        background-color: #EEEEEE;
+        padding-top: 75px;
+        height: 380px;
+    }
+    .contacts__name{
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        padding-top: 50px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .contacts__time {
+        font-family: "PT Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+    .contacts__number{
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 43px;
+        text-align: center;
+        margin-bottom: -10px;
+        opacity: 0.9;
+    }
+    .contacts__email{
+        font-family: "PT Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 47px;
+        text-align: center;
+        text-decoration-line: underline;
+        margin-bottom: 218px;
+    }
+}
+@media screen and (max-width: 784px) and (min-width: 581px) {
+    .contacts__wrapper{
+        max-width: 77.31%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border: 3px solid #CBC7C7;
+        height: 450px;
+
+    }
+    .contacts__main{
+        background-color: #EEEEEE;
+        padding-top: 75px;
+        height: 600px;
+    }
+    .contacts__name{
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        padding-top: 140px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .contacts__time {
+        font-family: "PT Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    .contacts__number{
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 43px;
+        text-align: center;
+        margin-bottom: 22px;
+        opacity: 0.9;
+    }
+    .contacts__email{
+        font-family: "PT Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 47px;
+        text-align: center;
+        text-decoration-line: underline;
+        margin-bottom: 218px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+
+    .advantages__all{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 179px ;
+    }
+}
+@media screen and (max-width: 750px) {
+
+    .advantages__all{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 179px ;
+    }
+}
 @media screen and (max-width: 900px) {
     .advantage__all{
         display: grid;
@@ -818,3 +1083,6 @@ background: #34547A;
         grid-gap: 40px;
     }
 }
+
+
+
