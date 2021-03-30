@@ -1047,7 +1047,7 @@ background: #34547A;
         background-color: #EEEEEE;
     }
     .header__number{
-        font-size: 48px;
+        font-size: 36px;
     }
     .header__nav_active{
         transform: translateX(0);
